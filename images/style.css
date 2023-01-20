@@ -55,3 +55,29 @@ body{
 .navbar_right a:hover{
     color: #00754a;
 }
+
+/*---bottom---*/
+.bottom{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.bottom hr{
+    color: gray;
+}
+
+.bottom a{
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom .copyright{
+    color: rgba(0,0,0,.58);
+}
+
+.bottom img{
+    width: 30px;
+}
