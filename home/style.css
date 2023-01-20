@@ -78,7 +78,7 @@ body{
 .news_1 .news_left img{
     align-items: center;
     max-width: 100%;
-    height: 50%;
+    display: flex;
 }
 
 /*---News_2---*/
@@ -113,7 +113,7 @@ body{
 .news_3 .news_left img{
     align-items: center;
     max-width: 100%;
-    height: 50%;
+    display: flex;
 }
 
 /*---About---*/
