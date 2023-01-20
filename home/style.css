@@ -7,7 +7,7 @@ body{
 
 .navbar {
     padding: 20px;
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,7 +129,7 @@ body{
 }
 
 .about img{
-    width: 40px;
+    width: 30px;
 }
 
 .about .slogan{
