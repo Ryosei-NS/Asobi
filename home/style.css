@@ -118,6 +118,7 @@ body{
 .about{
     display: flex;
     justify-content: space-around;
+    font-size: 30px;
 }
 
 .about a{
@@ -126,7 +127,7 @@ body{
 }
 
 .about img{
-    width: 100px;
+    width: 250px;
 }
 
 .about .slogan{
