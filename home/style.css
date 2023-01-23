@@ -17,7 +17,7 @@ body{
 }
 
 .navbar img{
-    width: 40px;
+    width: 30px;
 }
 
 .navbar img:hover{
@@ -203,10 +203,10 @@ body{
 
 @media screen and (min-width:375px){
     .navbar{
-        font-size: 15px;
+        font-size: 13px;
     }
     .navbar img{
-        width: 40px;
+        width: 30px;
     }
 
     .news_right ,.news_left{
