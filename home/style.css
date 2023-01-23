@@ -203,7 +203,7 @@ body{
 
 @media screen and (min-width:375px){
     .navbar{
-        font-size: 13px;
+        font-size: 15px;
     }
     .navbar img{
         width: 30px;
