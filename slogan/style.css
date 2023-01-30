@@ -7,7 +7,7 @@ body{
 
 .navbar {
     padding: 20px;
-    font-size: 17px;
+    font-size: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,7 @@ body{
 }
 
 .navbar img{
-    width: 40px;
+    width: 30px;
 }
 
 .navbar img:hover{
@@ -56,6 +56,18 @@ body{
     color: #00754a;
 }
 
+.slogan{
+    padding: 30px;
+}
+
+.slogan .img{
+    text-align: center;
+}
+
+.slogan .img img{
+    width: 100%;
+}
+
 /*---bottom---*/
 .bottom{
     background-color:rgb(255, 255, 255);
@@ -80,4 +92,43 @@ body{
 
 .bottom img{
     width: 30px;
+}
+
+@media screen and (min-width:375px){
+    .navbar{
+        font-size: 15px;
+    }
+    .navbar img{
+        width: 30px;
+    }
+    .slogan{
+        font-size:larger;
+    }
+    .slogan .img img{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:768px){
+    .navbar{
+        font-size: 20px;
+    }
+    .navbar img{
+        width: 50px;
+    }
+    .slogan{
+        font-size: 25px;
+    }
+    .slogan .img img{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:1100px){
+    .slogan{
+        font-size: 30px;
+    }
+    .slogan .img img{
+        width: 50%;
+    }
 }
