@@ -44,17 +44,19 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0px;
+    background-color:#ffffff;
 }
 
 .navbar {
     padding: 20px;
     font-size: 10px;
     display: flex;
+    background-color:#04aa74;
     justify-content: space-between;
     align-items: center;
-    -webkit-box-shadow: 0px 4px 2px 0px rgba(192, 182, 182, 0.75);
-    -moz-box-shadow: 0px 4px 2px 0px rgba(192, 182, 182,0.75);
-    box-shadow: 0px 4px 2px 0px rgba(192, 182, 182, 0.75);
+    -webkit-box-shadow: 0px 4px 2px 0px rgba(37, 243, 161, 0.75);
+    -moz-box-shadow: 0px 4px 2px 0px rgba(37, 243, 161, 0.75);
+    box-shadow: 0px 4px 2px 0px rgba(37, 243, 161, 0.75);
 }
 
 .navbar img{
@@ -68,12 +70,12 @@ body{
 
 .navbar_left a{
     font-weight: 600;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .navbar_left a:hover {
-    color: #00754a;
+    color:rgb(231, 230, 230);
 }
 
 .navbar_left{
@@ -89,12 +91,12 @@ body{
     display: flex;
     align-items: center;
     font-weight: 500;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .navbar_right a:hover{
-    color: #00754a;
+    color:rgb(231, 230, 230);
 }
 
 
@@ -110,7 +112,7 @@ body{
     text-align: center;
     align-items: center;
     margin: auto;
-    background-color: beige;
+    background-color: #fff;
     display: flex;
     margin-top: 1em;
     flex-direction: column;
@@ -127,7 +129,7 @@ body{
 .news_2{
     text-align: center;
     display: flex;
-    background-color: aqua;
+    background-color: #ffffff;
     margin-top: 1em;
     align-items: center;
     flex-direction: column;
@@ -145,7 +147,7 @@ body{
     align-items: center;
     text-align: center;
     display: flex;
-    background-color:coral;
+    background-color:#ffffff;
     margin-top: 1em;
     margin-bottom: 0.6em;
     flex-direction: column;
@@ -162,6 +164,7 @@ body{
     display: flex;
     justify-content: space-around;
     font-size: 13px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .about a{
@@ -215,10 +218,9 @@ body{
 
 
 
-
 /*---bottom---*/
 .bottom{
-    background-color:rgb(255, 255, 255);
+    background-color:#04aa74;
     text-align: center;
 }
 
@@ -227,7 +229,7 @@ body{
 }
 
 .bottom a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     align-items: center;
     display: flex;
@@ -235,7 +237,7 @@ body{
 }
 
 .bottom .copyright{
-    color: rgba(0,0,0,.58);
+    color: rgba(255, 255, 255, 1);
 }
 
 .bottom img{
