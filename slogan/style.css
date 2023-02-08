@@ -149,12 +149,6 @@ body{
     .navbar img{
         width: 30px;
     }
-    .slogan{
-        font-size:larger;
-    }
-    .slogan .img img{
-        width: 80%;
-    }
 }
 
 @media screen and (min-width:768px){
@@ -164,6 +158,41 @@ body{
     .navbar img{
         width: 50px;
     }
+}
+
+
+
+
+
+
+/*-------------------*/
+.ss{
+    padding: 40px 0px 10px 0px;
+}
+
+.ss .slogan{
+    background-color: #0bd;
+}
+span{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+    .slogan{
+        font-size:larger;
+    }
+    .slogan .img img{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:768px){
     .slogan{
         font-size: 25px;
     }
