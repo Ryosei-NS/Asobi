@@ -176,6 +176,9 @@ body{
     padding-right: 10px;
 }
 
+.title br{
+    margin-top:10ch;
+}
 @media screen and (min-width:375px){
     .maps iframe{
         height: 550px;
